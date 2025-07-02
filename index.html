@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC SHOP</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+
+    <header class="top">
+        <img class="icon" src="logo.png" href="#">
+        <div class="nav-container">
+            <ul class="ht">
+                <li class="htt" data-tab="home">
+                    <a href="#home" class="icon-link">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="htt" data-tab="about">
+                    <a href="#about" class="icon-link">
+                        <i class="fas fa-info-circle"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="htt" data-tab="contact">
+                    <a href="#contact" class="icon-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+                <li class="htt dropdown">
+                    <a href="#" class="dropdown-btn icon-link" data-tab="products">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span>Products</span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="pc.html" data-tab="pc" class="icon-link">
+                            <i class="fas fa-desktop"></i>
+                            <span>PC</span>
+                        </a>
+                        <a href="#" data-tab="pc-parts" class="icon-link">
+                            <i class="fas fa-microchip"></i>
+                            <span>PC Parts</span>
+                        </a>
+                        <a href="#" data-tab="laptops" class="icon-link">
+                            <i class="fas fa-laptop"></i>
+                            <span>Laptops</span>
+                        </a>
+                        <a href="#" data-tab="monitors" class="icon-link">
+                            <i class="fas fa-tv"></i>
+                            <span>Monitors</span>
+                        </a>
+                        <a href="#" data-tab="accessories" class="icon-link">
+                            <i class="fas fa-keyboard"></i>
+                            <span>Accessories</span>
+                        </a>
+                        <a href="#" data-tab="periphery" class="icon-link">
+                            <i class="fas fa-mouse"></i>
+                            <span>Periphery</span>
+                        </a>
+                        <a href="#" data-tab="network-devices" class="icon-link">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Network Devices</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <search class="search-bar">
+                <input type="text" class="search-input" id="searchField" placeholder="Search...">
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </search>
+            <div class="cart-icon">
+                <a href="#" class="icon-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Cart</span>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+
+    
+    <subheader id="home" class="subheader">
+        <div class="left">
+            <h3 class="mtxt">FIND YOUR</h3>
+            <h1 class="pc">PC</h1>
+            <button class="shop-now" href="shop.html">Shop Now</button>
+        </div>
+        <div class="right">
+            <img class="pc-img" src="main-pc.png">
+        </div>
+    </subheader>
+    <main class="main">
+        <left class="f-left">
+            <products class="pr">
+                <h1 class="ft-prod">FEATURED PRODUCTS</h1>
+                <product class="product">
+                    <img class="img-1" src="Titan-18-HX-AI.png">
+                    <div class="rating"> 
+                        <ul class="ul">
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star checked "></i></li>
+                            <li class="li"><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <h2 class="txt">MSI Titan-18-HX-AI</h2>
+                </product>
+                <product class="product">
+                    <img class="img-1" src="AORUS-GeForce-RTX-5090-MASTER-ICE-32G-Box.png">
+                    <div class="rating"> 
+                        <ul class="ul">
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star checked "></i></li>
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                        </ul>
+                    </div>
+                    <h2 class="txt">GeForce RTX5090</h2>
+                </product>
+                <product class="product">
+                    <img class="img-1" src="logitech-g203.png">
+                    <div class="rating"> 
+                        <ul class="ul">
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star"></i></li>
+                            <li class="li"><i class="fa fa-star"></i></li>
+                            <li class="li"><i class="fa fa-star"></i></li>
+                        </ul>
+                    </div>
+                    <h2 class="txt">logitech-g203</h2>
+                </product>
+                <product class="product">
+                    <img class="img-1" src="Ryzen-79800X3D.png">
+                    <div class="rating"> 
+                        <ul class="ul">
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                            <li class="li"><i class="fa fa-star checked "></i></li>
+                            <li class="li"><i class="fa fa-star checked"></i></li>
+                        </ul>
+                    </div>
+                    <h2 class="txt">Ryzen-79800X3D</h2>
+                </product>
+                
+            </products> 
+
+            
+  
+
+
+        </left>
+       
+        <div id="about" class="featured-pc-container">
+            <h1 class="ft-pc">FEATURED PC</h1>
+            <div href="#" class="pc-content">
+                        <img href="pc.html" class="PC-img" src="TOP_PC.png">
+                <right class="right-d">
+                </right>
+            </div>
+        </div>
+
+        <right class="right-d">
+            <div class="divide design">
+                <h1 class="RG">RGB LIGHTING</h1>
+                <img class="about-img" src="rgb.png" alt="RGB Lighting">
+                <p class="text-about">Enhance your gaming experience with customizable RGB lighting effects</p>
+            </div>
+            <div class="divide design">
+                <img class="YT-logo" src="YT-logo.png" alt="RGB Lighting">
+                <h1 class="R">EASY RETURNS</h1>
+                <p class="text-about">30-day money back guarantee</p>
+            </div>
+            <div class="divide design">
+                <img class="shipping" src="shipping.png" alt="RGB Lighting">
+                <h1 class="R">FREE SHIPPING</h1>
+                <p class="text-about">on all orders above $500</p>
+            </div>
+        </right>
+    </main>
+    <hr class="hr">
+
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+          <div class="footer-section about">
+            <h3>PC Shop</h3>
+            <p>We are the best computer hardware store in Georgia. Quality products, warranties, and competitive prices!</p>
+          </div>
+    
+          
+          <div class="footer-section social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="https://tiktok.com" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+              <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+    
+          
+          <div class="footer-section contact">
+            <h3>Contact</h3>
+            <p><i class="fas fa-phone"></i> +995 123 456 789</p>
+            <p><i class="fas fa-envelope"></i> info@pcshop.ge</p>
+          </div>
+        </div>
+    
+        
+        <div class="footer-bottom">
+          &copy; 2024 PC Shop | All Rights Reserved
+        </div>
+      </footer>
+
+</body>
+</html>
